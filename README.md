@@ -1,17 +1,13 @@
 # Pologne 26
 
-Carnet de voyage interactif personnel : 79 étapes, 521 photos, journal complet et carte Mapbox satellite/3D.
+Carnet de voyage de Clément VINCENT : 79 étapes, 521 photos et carte interactive.
 
-Le site est contenu dans `index.html`. Garder le dossier `photos_renommees/` à côté pour conserver les images. Les deux panoramas du Tumulus de Krakus et de la forêt de Niepołomice sont inclus.
+**Ouvrir le site : https://cleementt26.github.io/pologne-2026/**
 
-## Ouvrir en local
+Recherche, chapitres chronologiques, partage des étapes et reprise de lecture enregistrée uniquement dans le navigateur. Sur mobile, la carte peut être repliée et les photos parcourues par glissement.
 
-Depuis ce dossier, lancer `python3 -m http.server 8000`, puis ouvrir http://localhost:8000. La carte nécessite une connexion Internet et le jeton public Mapbox configuré dans le fichier.
+`index.html` contient le code et les données. `photos_renommees/` contient les JPEG originaux pour le plein écran et les aperçus WebP pour le journal. `partage.jpg` est l’aperçu des liens partagés.
 
-## Confidentialité
+Pour ouvrir en local : `python3 -m http.server 8000`, puis http://localhost:8000. Internet est nécessaire pour Mapbox.
 
-Ce dépôt contient les photos, les textes et les positions GPS du voyage. Il est privé.
-
-Le carnet hébergé, réservé au propriétaire, est disponible sur https://pologne-26-carnet-prive.cleementt26.chatgpt.site.
-
-Photographies et journal : Clément VINCENT.
+Le site et ce dépôt sont publics, conformément au choix du propriétaire.
